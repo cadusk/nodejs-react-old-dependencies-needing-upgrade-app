@@ -1,3 +1,4 @@
+import DOMPurify from "dompurify";
 import React from "react";
 import pkg from "../package.json";
 
@@ -23,7 +24,8 @@ export default function App() {
         </ul>
       </section>
       <section>
-        <div dangerouslySetInnerHTML={{ __html: userInput }} />
+import DOMPurify from "dompurify";
+        <div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(userInput) }} />
       </section>
     </main>
   );
