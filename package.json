@@ -1,5 +1,5 @@
 {
-  "name": "some-client",
+  "name": "sample-nodejs-app-application",
   "version": "0.2.0",
   "private": true,
   "scripts": {
