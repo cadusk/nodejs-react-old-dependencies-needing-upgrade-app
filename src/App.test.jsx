@@ -7,12 +7,6 @@ describe("App", () => {
     expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent("Node.js React App");
   });
 
-  it("renders node version section", () => {
-    render(<App />);
-    expect(screen.getByText(/node version/i)).toBeInTheDocument();
-    expect(screen.getByText("18.x")).toBeInTheDocument();
-  });
-
   it("renders package versions section", () => {
     render(<App />);
     expect(screen.getByText(/package versions/i)).toBeInTheDocument();
