@@ -28,6 +28,7 @@
     "@vitejs/plugin-react-swc": "^3.3.2",
     "axios": "^1.7.7",
     "classnames": "^2.3.2",
+    "dompurify": "^3.3.3",
     "eslint-config-react-app": "^7.0.1",
     "flatted": "^3.4.0",
     "immutable": "^5.1.5",
@@ -54,7 +55,7 @@
     "axios-mock-adapter": "^1.22.0",
     "eslint": "^8.45.0",
     "jsdom": "^23.0.1",
-    "vite": "^4.4.4",
+    "vite": "^5.4.21",
     "vite-plugin-checker": "^0.6.1",
     "vite-tsconfig-paths": "^4.2.0",
     "vitest": "^3.0.5"
